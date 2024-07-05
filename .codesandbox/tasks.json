@@ -1,0 +1,62 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    },
+    {
+      "name": "setup turbo",
+      "command": "npm i -g turbo"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "snapshot": {
+      "name": "snapshot",
+      "command": "npm run snapshot",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:watch": {
+      "name": "build:watch",
+      "command": "npm run build:watch",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "example": {
+      "name": "example",
+      "command": "npm run example",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "publish-packages": {
+      "name": "publish-packages",
+      "command": "npm run publish-packages",
+      "runAtStart": false
+    },
+    "website": {
+      "name": "website",
+      "command": "npm run website",
+      "runAtStart": false
+    }
+  }
+}
