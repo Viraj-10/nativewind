@@ -1,0 +1,5 @@
+{
+  "packages": ["packages/react-native-css-interop", "packages/nativewind"],
+  "buildCommand": "build",
+  "node": "16"
+}
