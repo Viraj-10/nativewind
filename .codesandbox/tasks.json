@@ -15,23 +15,19 @@
   "tasks": {
     "test": {
       "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
+      "command": "npm run test"
     },
     "snapshot": {
       "name": "snapshot",
-      "command": "npm run snapshot",
-      "runAtStart": false
+      "command": "npm run snapshot"
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "build:watch": {
       "name": "build:watch",
-      "command": "npm run build:watch",
-      "runAtStart": false
+      "command": "npm run build:watch"
     },
     "dev": {
       "name": "dev",
@@ -40,23 +36,19 @@
     },
     "example": {
       "name": "example",
-      "command": "npm run example",
-      "runAtStart": false
+      "command": "npm run example"
     },
     "clean": {
       "name": "clean",
-      "command": "npm run clean",
-      "runAtStart": false
+      "command": "npm run clean"
     },
     "publish-packages": {
       "name": "publish-packages",
-      "command": "npm run publish-packages",
-      "runAtStart": false
+      "command": "npm run publish-packages"
     },
     "website": {
       "name": "website",
-      "command": "npm run website",
-      "runAtStart": false
+      "command": "npm run website"
     }
   }
 }
