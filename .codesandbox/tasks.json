@@ -31,8 +31,7 @@
     },
     "dev": {
       "name": "dev",
-      "command": "npm run dev",
-      "runAtStart": true
+      "command": "npm run dev"
     },
     "example": {
       "name": "example",
